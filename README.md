@@ -1,6 +1,6 @@
 # GitHub Repository for Homework 2
 
-(ww2439)
+
 
 ##### Files:
 
