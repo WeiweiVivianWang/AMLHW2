@@ -1,13 +1,10 @@
 #!/usr/bin/env python
-"""A boilerplate script to be customized for data projects.
-
-This script-level docstring will double as the description when the script is
-called with the --help or -h option.
-
+"""test_rent.py
+Checks that the R^2 of the model is greater than or equal to 0.5.
 """
 
-from homework2_rent import score_rent
+from homework2_rent import *
 
 def test_rent():
-  """Checks the R^2 returned by score_rent()"""
-  assert score_rent() >= 0.9
+  """Ensures that the R^2 of the model meets the expected outcome"""
+  assert score_rent(model) >= 0.5
