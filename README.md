@@ -11,7 +11,7 @@
 
 ##### Files:
 
-- [hw3_starter_notebook.ipynb](./hw3_starter_notebook.ipynb)
+
 
 - [data](./data)
 
